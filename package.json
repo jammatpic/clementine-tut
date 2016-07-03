@@ -1,0 +1,23 @@
+{
+  "name": "clementine-tut",
+  "version": "1.0.0",
+  "description": "A tutorial app for the clementine.js boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jammatpic/clementine-tut.git"
+  },
+  "author": "James Pickering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jammatpic/clementine-tut/issues"
+  },
+  "homepage": "https://github.com/jammatpic/clementine-tut#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.1.18"
+  }
+}
