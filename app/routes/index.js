@@ -13,8 +13,9 @@ module.exports = function(app, db) {
             res.sendFile(process.cwd() + "/public/index.html");
         });
 
+    // get, post, and delete at /api/clicks
     app.route("/api/clicks")
-        .get(clickHandler.getClicks);
-        .post(clickHandler.addClick);
+        .get(clickHandler.getClicks)
+        .post(clickHandler.addClick)
         .delete(clickHandler.resetClicks);
 };
